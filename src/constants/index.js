@@ -28,6 +28,7 @@ import {
     banking,
     whatisgpt3,
     finedine,
+    taskmanager,
 } from "../assets";
 
 export const navLinks = [
@@ -83,6 +84,10 @@ const technologies = [
         icon: reactjs,
     },
     {
+        name: "MongoDB",
+        icon: mongodb,
+    },
+    {
         name: "Tailwind CSS",
         icon: tailwind,
     },
@@ -106,7 +111,7 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Junior Front-End Developer",
+        title: "Front-End Developer",
         company_name: "Ninja Multimedia",
         icon: ninja,
         iconBg: "#ffffff",
@@ -119,14 +124,16 @@ const experiences = [
         ],
     },
     {
-        title: "Front-End Developer",
+        title: "Front-End Developer L2",
         company_name: "Digital Yalo",
         icon: yalo,
         iconBg: "#E6DEDD",
         date: "May 2020 - Feb 2023",
         points: [
             "As a leader in the development team, I successfully spearheaded the creation of a comprehensive component system for Choosebooster's complete overhaul. This effort resulted in a streamlined and user-friendly system, allowing the client to easily create pages with greater efficiency.",
+            "Designed and developed a modern bank UI using ReactJS and Figma, featuring eye-catching gradients and full responsiveness for seamless use across all devices.",
             "Managed front-end development of several new websites for BG, including Green Giant Canada and Crisco US. My contributions to the development process included coding and implementing the new look for these sites in Wordpress.",
+            "My contributions to the development process included coding and implementing the new look for these sites in Wordpress and ensuring the functionality remained consistent for each browser with the use of Broswerstack",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
             "Applied knowledge of Google Analytics and Google Data Studio to create useful charts and reports for data analysis for clients.",
@@ -212,6 +219,31 @@ const projects = [
         ],
         image: banking,
         source_code_link: "https://cbdevninja.github.io/bank_modern_app",
+    },
+    {
+        name: "Task Manager",
+        description:
+            "A simple and intuitive task managing app using the MERN stack. This app allows users to add, mark complete, and delete tasks.",
+        tags: [
+            {
+                name: "reactjs",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "mongodb",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "nodejs",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tailwindcss",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: taskmanager,
+        live_link: "https://mern-task-cbdevapp.onrender.com/",
     },
 ];
 

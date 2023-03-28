@@ -34,6 +34,7 @@ import tripguide from "./tripguide.png";
 import whatisgpt3 from "./whatisgpt3.png";
 import finedine from "./finedining.png";
 import banking from "./bankmodernapp.png";
+import taskmanager from "./mern-tm.png";
 
 export {
   logo,
@@ -69,4 +70,5 @@ export {
   banking,
   whatisgpt3,
   finedine,
+  taskmanager,
 };
